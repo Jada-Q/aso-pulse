@@ -1,0 +1,23 @@
+{
+  "keyPath": "~/.appstoreconnect/private/AuthKey_XXXXXXXXXX.p8",
+  "keyId": "XXXXXXXXXX",
+  "issuerId": "00000000-0000-0000-0000-000000000000",
+  "vendorNumber": "00000000",
+  "ledgerPath": "~/aso-ledger.md",
+  "storefronts": ["jp", "us"],
+  "rankControl": {
+    "term": "あなたのアプリの正式名",
+    "country": "jp",
+    "appId": "そのアプリの Apple ID（数字）"
+  },
+  "apps": [
+    {
+      "id": "1234567890",
+      "name": "My App",
+      "keywords": {
+        "jp": ["狙っているキーワード1", "キーワード2"],
+        "us": ["target keyword"]
+      }
+    }
+  ]
+}
