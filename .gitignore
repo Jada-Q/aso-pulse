@@ -2,3 +2,4 @@ config.json
 *.p8
 *.log
 node_modules/
+zenn-draft.md
